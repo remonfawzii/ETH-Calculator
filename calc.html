@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- css files -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+        <!-- website title -->
+        <title>calculator</title>
+	</head>
+	<body>
+		<section class="calc-section">
+			<div class="container">
+				<!-- title -->
+				<h3>please enter amount of "ETH"</h3>
+				
+				<!-- input -->
+				<input type="text" value="" id="eth-value" placeholder='Amount Of "ETH"' onkeyup="ethCalc(this.value)" />
+				
+				<!-- result -->
+				<h3>amount of "AIN"</h3>
+				<p id="result"></p>
+				
+				<!-- bug -->
+				<p id="bug"></p>
+			</div>
+		</section>
+		
+		<!-- js file -->
+		<script src="calc.js"></script>
+	</body>
+</html>

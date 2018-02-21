@@ -1,0 +1,25 @@
+.calc-section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.calc-section h3{
+	text-transform: uppercase;
+	word-spacing: 5px;
+	margin-bottom: 30px;
+}
+#eth-value{
+	padding: 15px;
+	outline: 0;
+	border: 1px solid #9d9d9d;
+	color: #333333;
+}
+#result{
+	font-size: 30px;
+}
+#bug{
+	color: #f00;
+}
+.ain-word{
+	color: #51c741;
+	margin-left: 20px;
+}
